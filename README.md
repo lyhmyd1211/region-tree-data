@@ -18,7 +18,10 @@
 ```js
 import {setData, getByArea, provinceAndCityData, regionData, provinceAndCityDataPlus, regionDataPlus, CodeToText, TextToCode } from 'region-tree-data'
 ```
-
+或
+```js
+let {setData, getByArea, provinceAndCityData, regionData, provinceAndCityDataPlus, regionDataPlus, CodeToText, TextToCode } = require('region-tree-data')
+```
   1. `provinceAndCityData`是省市二级联动数据（不带“全部”选项）
   2. `regionData`是省市区三级联动数据（不带“全部”选项）
   3. `provinceAndCityDataPlus`是省市区三级联动数据（带“全部”选项）
