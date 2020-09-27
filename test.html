@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <script>
+    import {
+      setData,
+      getByArea,
+      provinceAndCityData,
+      regionData,
+      provinceAndCityDataPlus,
+      regionDataPlus,
+      CodeToText,
+      TextToCode,
+    } from './main.js';
+    import REGION_DATA from './index_2019__level_3.json';
+    // setData()
+    console.log('provinceAndCityData', provinceAndCityData);
+    console.log('regionData', regionData);
+    console.log('provinceAndCityDataPlus', provinceAndCityDataPlus);
+    console.log('CodeToText', CodeToText['100000']);
+    setData(REGION_DATA);
+    console.log('setData_provinceAndCityData', provinceAndCityData);
+    console.log('setData_regionData', regionData);
+    console.log('setData_provinceAndCityDataPlus', provinceAndCityDataPlus);
+  </script>
+  <body>
+    <div></div>
+  </body>
+</html>
