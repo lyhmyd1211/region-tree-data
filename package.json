@@ -1,17 +1,31 @@
 {
   "name": "region-tree-data",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
-  "author": "",
+  "author": "Ehame_Lu<296666661@qq.com>",
   "license": "ISC",
   "dependencies": {
     "@babel/runtime": "^7.11.2",
     "lodash": "^4.17.20"
   },
+  "keywords": [
+    "region",
+    "region tree",
+    "china region",
+    "tree data",
+    "region tree data"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyhmyd1211/region-tree-data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lyhmyd1211/region-tree-data/issues"
+  },
+  "homepage": "https://github.com/lyhmyd1211/region-tree-data#readme",
   "scripts": {
     "compile": "babel -d ./ src/",
-    "prepublish": "npm run compile",
     "server": "node app.babel.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
